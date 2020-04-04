@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    background-color: rgba(238, 236, 228, 0.507);
+}
+
+.background1{
+    background-image: url("img/bg-image1.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.intro-box{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    background-color: #6A7368;
+    padding: 15px;
+    border-radius: 8px;
+    color: whitesmoke;
+}
+
+.intro{
+    font-weight: 700;
+    letter-spacing: 8px;
+}
+
+.content1{
+    background-color: whitesmoke;
+    height: 150px;
+    margin: 0;
+    padding: 15px;
+    color: black;
+}
+
+.mission{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+}
+
+.quote{
+    margin: 0;
+    padding-top: 15px;
+    font-family: monospace;
+    font-style: italic;
+    text-align: center;
+}
+
+.watermark{
+    margin: 0;
+    padding-top: 5px;
+    text-align: center;
+    font-family: monospace;
+}
+
+.background2{
+    background-image: url("img/bg-image2.jpg");
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.content2{
+    text-align: center;
+    height: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.events{
+    margin: 0;
+    padding: 15px 40px 15px 40px;
+    background-color: #6A7368;
+    color: whitesmoke;
+}
+
+h6{
+    font-size: 25px;
+    margin: 0;
+    background-color: rgb(181, 189, 179);
+    color: rgb(94, 87, 87);
+}
+
+.event-list{
+    margin: 0;
+    padding: 4px;
+}
+
+.background3{
+    background-image: url("img/bg-image3.jpg");
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.content3{
+    background-color: #e5f1f198;
+    height: 190px;
+    margin: 0;
+    padding: 15px;
+    color: black;
+}
+
+.requirement, .bonus{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+}
+
+.background4{
+    background-image: url("img/bg-image4.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.footer{
+    background-color: #e5f1f198;
+    text-align: end;
+    color: black;
+    font-weight: 500;
+    font-size: 80%;
+    width: 100%;
+}
+
+.footer p{
+    margin: 0;
+    padding: 3px 10px 3px 0;
+}
